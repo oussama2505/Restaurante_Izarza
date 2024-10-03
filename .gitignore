@@ -1,0 +1,18 @@
+# Ignorar directorios de WordPress
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+
+# Ignorar archivos temporales del servidor
+error_log
+debug.log
+
+# Ignorar los archivos de configuración locales
+wp-config.php
+
+# Ignorar todos los plugins y temas
+wp-content/plugins/*
+wp-content/themes/*
+
+# Opcionalmente, puedes subir solo tus temas y plugins personalizados
+# Para eso, comenta estas líneas y permite los temas o plugins que quieras
